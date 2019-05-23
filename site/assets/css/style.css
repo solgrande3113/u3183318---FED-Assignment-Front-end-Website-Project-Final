@@ -1,0 +1,347 @@
+/* CSS file */
+
+/*This is a CSS rule: a selector followed by curly brackets*/
+
+
+/*Style for body*/
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    background-color:white;
+    
+}
+p{
+    line-height: 1.6;
+}
+h1 {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
+}
+h2,h3{
+    font-family: "Playfair Display";
+}
+.newfont{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    letter-spacing: -1px;
+}
+.newfont1{
+    font-family: 'Slabo 27px', serif;
+    font-size:18px; 
+    text-align: center;
+}
+.newfont2{
+    font-family: "helvetica";
+    font-style: oblique;
+    text-align: center;
+}
+
+/*Footer*/
+.footer{
+    background-color:#696969;
+    text-align: center;
+    color:white;
+    margin-bottom: 0;
+    padding: 2px;
+    
+}
+
+/*header and navigation*/
+.menubar{ 
+    top:0;
+    padding:15px 10px;
+    position:fixed;
+    z-index:1;
+    width:100%;
+    background-color: #fff;
+    color: #000;
+    font-family: 'PT Serif', serif;
+
+    font-size: 21px; 
+}
+.top-bar{
+    width:100%;
+    overflow:hidden;
+}
+.top-right{
+    float: right;
+    padding-right: 25px; 
+}
+.top-bar-item{
+        padding:8px 16px;
+        float:left;
+        width:auto;
+        border:none;
+        display:block;
+        outline:0;
+        text-decoration: none;
+}
+.top-button{
+    white-space:normal;
+    color:#000;
+}
+
+.top-text:hover{
+    color:darkblue;
+}
+
+
+/*Content*/
+.container{
+    width:1000px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:white; 
+}
+
+.container2{
+    width:1465px;
+    margin-top: -10px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:#F0F8FF; 
+    
+}
+
+     
+.container3{
+    width:900px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:white; 
+}
+
+.container4{
+    width:1200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:white; 
+}
+
+.text-center{
+    text-align: center;
+}
+/*Divide page into 2 and 3 sections*/
+.row{
+    display: flex;
+}
+.col2{
+    flex: 50%;
+    padding: 25px;
+}
+.col3{
+    flex: 33.33%;
+    padding: 10px;
+    height: 400px;
+    
+}
+.col3 img{
+    width: 300px;
+    height: 300px;
+    
+    
+}
+.col3 h4{
+    text-align: center;
+}
+
+/*Images setting for whole website*/
+.bgimg{
+    height: 50px;
+    max-width: 100%;
+}
+.banner{
+    width: 100%;
+    display: block;
+}
+
+.banner-image{
+    width:100%;
+    display: block;
+    
+}
+/*banner text setting*/
+
+.centered {
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 45px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+.imgHis1{
+    float: right;
+    margin: 0px 0px 15px 20px;
+}
+#imgHis2{
+    float: left;
+    margin: 0px 20px 15px 0px;}
+    
+#imgbox1{
+      transform: rotate(90deg);
+      margin: 25px 75px 0px 100px;
+}
+
+#imgbox2{
+    transform: rotate(90deg);
+    margin: 25px 75px 0px 100px;
+}
+    
+     
+#imgbox3{
+    margin-right: 75px;
+    margin: 25px 100px 0px 75px;
+}
+
+
+/*button setting*/
+/* Container needed to position the button. Adjust the width as needed */
+.btnimg1 {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.btnimg1 {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container image */
+.btnimg1 .btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btnimg1 .btn:hover {
+  background-color: black;
+}
+
+/*locationimages external from Home*/
+.wall-image{
+    transform: rotate(90deg);
+    width:450px;
+    height: 450px;
+}
+
+.office-image{
+    transform: rotate(90deg);
+    width:450px;
+    height: 500px;
+}
+
+.store-image{
+    height:500px;
+
+}
+
+/*History Image*/
+
+.history1{
+    border-radius: 12px;
+    width: 450px;
+    max-width: 100%;
+    height:auto;
+    }
+
+/*About Image*/
+
+.aboutimg{
+    transform: rotate(90deg);
+    width:400px;
+    height:300px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    margin-right:150px;
+    float:right;
+    border-radius: 12px;
+}
+
+/*Gallery*/
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  width:600;
+  height:400;
+  height: auto;
+}
+
+div.galdesc {
+  padding: 15px;
+  text-align: center;
+}
+
+/*gal20*/
+div.gallery2 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+  
+}
+
+div.gallery2:hover {
+  border: 1px solid #777;
+}
+
+
+div.gallery2 img {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+
